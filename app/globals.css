@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: 'Cal Sans';
+  src: url('../public/fonts/CalSans-SemiBold.woff2') format('woff2');
+}
+@layer components {
+  .all-\[unset\] {
+    all: unset;
+  }
+}
+
+.custom-text{font-family: Lexend;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
+    color: #000000FF;
+}
+
